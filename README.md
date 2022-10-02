@@ -8,7 +8,7 @@
 <p align="center">
 <a href="https://github.com/Xenzi-XN1"><img title="Creator" src="https://img.shields.io/badge/Creator-Xenzi-green.svg?style=for-the-badge&logo=github"></a>
 </p>
-simple Rest-API User-agent-Random menggunakan flask
+Simple Rest-API User-agent-Random menggunakan flask
 
 ## Cloning this repo
 ```cmd
@@ -38,7 +38,7 @@ import requests
 data = requests.get('http://127.0.0.1:5000/api/user-agent-random').text
 print (data)
 ```
-Status data
+Respon data
 ```json
 {
     "status": "success",
